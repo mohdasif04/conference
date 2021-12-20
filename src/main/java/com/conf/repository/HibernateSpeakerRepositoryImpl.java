@@ -8,6 +8,8 @@ import com.conf.model.Speaker;
 public class HibernateSpeakerRepositoryImpl implements SpeakerRepository {
 
 	public List<Speaker> findAll() {
+		
+		// HIbernate Repository has been implemented by speaker repository
 
 		List<Speaker> speakers = new ArrayList<Speaker>();
 		Speaker speaker = new Speaker();
